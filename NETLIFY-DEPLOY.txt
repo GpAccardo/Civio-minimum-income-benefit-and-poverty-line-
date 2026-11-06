@@ -1,0 +1,15 @@
+VOXEUROP MINIMUM INCOME — NETLIFY SOURCE PROJECT
+
+IMPORTANT: This ZIP contains SOURCE, not compiled static files. It cannot be deployed via Netlify Drop as-is.
+
+Deploy using Netlify's "Import an existing project" from a GitHub repository:
+1. Create a new GitHub repository.
+2. Unzip this package, and upload all its contents (including netlify.toml) into the repository root.
+3. In Netlify choose Add new project > Import an existing project > GitHub.
+4. Select the repository. Netlify should detect netlify.toml with the build command and dist publish directory.
+5. Deploy. Use the https://YOUR-SITE.netlify.app URL, with ?lang=en / ?lang=fr / ?lang=it.
+6. In WordPress add a Custom HTML block containing an iframe whose src is your Netlify URL.
+
+The source has not been compiled or browser-tested in this environment (npm registry inaccessible).
+Before publishing: verify Civio reuse permissions, proofread translations, test external CSV and CSS requests,
+update Civio-domain share/embed controls, and test on mobile.
