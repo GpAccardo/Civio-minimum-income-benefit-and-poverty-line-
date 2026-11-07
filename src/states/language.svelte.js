@@ -353,7 +353,7 @@ const texts = {
     },
   },
   fr: {
-  "title": "Écart entre le <span class=\"mark-benefit\">revenu minimum</span> et le <span class=\"mark-threshold\">seuil de pauvreté</span> en Europe",
+  "title": "Ecart entre le <span class=\"mark-benefit\">revenu minimum</span> et le <span class=\"mark-threshold\">seuil de pauvreté</span> en Europe",
   "householdLegend": "Type de ménage",
   "household": {
     "single": "Personne seule",
