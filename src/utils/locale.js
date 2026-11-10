@@ -17,6 +17,7 @@ const enEN = {
 
 export const formatIntegers = {
   en: formatLocale(enEN).format(',d'),
+  de: formatLocale(esES).format(',d'),
   es: formatLocale(esES).format(',d'),
   fr: formatLocale(esES).format(',d'),
   it: formatLocale(esES).format(',d'),
@@ -24,6 +25,7 @@ export const formatIntegers = {
 
 export const formatDecimals = {
   en: formatLocale(enEN).format('.2f'),
+  de: formatLocale(esES).format('.2f'),
   es: formatLocale(esES).format('.2f'),
   fr: formatLocale(esES).format('.2f'),
   it: formatLocale(esES).format('.2f'),
@@ -31,6 +33,7 @@ export const formatDecimals = {
 
 export const formatEuros = {
   en: formatLocale(enEN).format('$,.2f'),
+  de: formatLocale(esES).format('$,.2f'),
   es: formatLocale(esES).format('$,.2f'),
   fr: formatLocale(esES).format('$,.2f'),
   it: formatLocale(esES).format('$,.2f'),
