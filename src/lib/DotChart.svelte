@@ -447,21 +447,21 @@
     fill: var(--bw100);
   }
 
-  .gap-line.shortfall {
-    fill: #f74383;
-  }
+  ..gap-line.shortfall {
+  fill: #C74141;
+}
 
-  .gap-line.surplus {
-    fill: #08a6bf;
-  }
+.gap-line.surplus {
+  fill: #08a6bf;
+}
 
-  .dot.shortfall {
-    fill: #f74383;
-  }
+.dot.shortfall {
+  fill: #C74141;
+}
 
-  .dot.surplus {
-    fill: #08a6bf;
-  }
+.dot.surplus {
+  fill: #08a6bf;
+}
 
   @media (prefers-reduced-motion: no-preference) {
     .country-row {
