@@ -49,9 +49,9 @@ const civioColors = {
       light: '#FFE8E1',
     },
     lopublico: {
-      primary: '#f74383',
-      secondary: '#FEA2D4',
-      light: '#ffecf6',
+      primary: '#C74141',
+      secondary: '#C74141',
+      light: '#C74141',
     },
   },
 };
@@ -72,7 +72,7 @@ export const projectColorsCSS = Object.entries(projectColors)
 // #08a6bf), darkened until they clear 4.5:1 as small bold text on white. The chart fills
 // can stay light because they are large areas; text cannot.
 const deviationTextColors = {
-  'shortfall-text': '#d43a71',
+  'shortfall-text': '#C74141',
   'surplus-text': '#068296',
 };
 
