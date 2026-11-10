@@ -447,7 +447,7 @@
     fill: var(--bw100);
   }
 
-  ..gap-line.shortfall {
+  .gap-line.shortfall {
   fill: #C74141;
 }
 
